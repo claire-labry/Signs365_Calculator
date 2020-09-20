@@ -1,0 +1,20 @@
+{
+  "name": "signs365_calculator",
+  "version": "1.0.0",
+  "description": "Calculator for Code Assessment for Signs365",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claire-labry/Signs365_Calculator.git"
+  },
+  "author": "Claire Labry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claire-labry/Signs365_Calculator/issues"
+  },
+  "homepage": "https://github.com/claire-labry/Signs365_Calculator#readme",
+  "dependencies": {}
+}

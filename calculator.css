@@ -1,0 +1,40 @@
+* {
+    font-family: 'Fira Code', monospace;
+}
+
+#hero{
+   background-color: #F2BF80; 
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#card{
+    background-color: #CEEFF2;
+    display: flexbox;
+}
+
+#calculator {
+    background-color: #F2B33D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: max-content;
+    border-radius: 50px;
+}
+
+.button {
+    margin: 5px;
+}
+
+#footer{
+    background-color: #F24B59;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
