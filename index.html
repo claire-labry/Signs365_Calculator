@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-
-    <title>Calculator</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>365 | Calculator</title>
     <!-- added link to external stylesheet -->
     <link rel="stylesheet" href="calculator.css" />
-    <!-- google font open source code: fira code -->
+    <!-- google font open source code: fira code (main) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- google font open source code: orbitron (output) -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   </head>
   <body>
       <section class="main-container" id="container">
@@ -28,28 +29,29 @@
  
     <div class="calculator">
         <div class="output">
-            <div class="history"></div>
-                <div class="current"></div>
+            <div data-history class="history"></div>
+                <div data-current class="current"></div>
                     </div>
-                        <button button class="button" id="button-clear" value="clear">AC</button>
-                        <button button class="button" id="button-percent" value="percent">%</button>
-                        <button button class="button" id="button-addMinus" value="addMinus">+/-</button>
-                        <button button class="button" id="button-7" value="7">7</button>
-                        <button button class="button" id="button-8" value="8">8</button>
-                        <button button class="button" id="button-9" value="9">9</button>
-                        <button button class="button" id="button-plus" value="plus">&plus;</button>
-                        <button button class="button" id="button-4" value="4">4</button>
-                        <button button class="button" id="button-5" value="5">5</button>
-                        <button button class="button" id="button-6" value="6">6</button>
-                        <button button class="button" id="button-minus" value="minus">&minus;</button>
-                        <button button class="button" id="button-1" value="1">1</button>
-                        <button button class="button" id="button-2" value="2">2</button>
-                        <button button class="button" id="button-3" value="3">3</button>
-                        <button button class="button" id="button-multiply" value="times">&times;</button>
-                        <button button class="button" id="button-decimal" value="decimal">&period;</button>
-                        <button button class="button" id="button-0" value="0">0</button>
-                        <button button class="button" id="button-equal" value="equals">=</button>
-                        <button button class="button" id="button-divide" value="divide">&divide;</button>
+                        <button data-clear button class="button" id="button-clear" value="clear">AC</button>
+                        <button data-del button class="button" id="button-del" value="clear">del</button>
+                        <button data-operator button class="button" id="button-percent" value="percent">%</button>
+                        <button data-operator button class="button" id="button-plusNeg" value="addMinus">+/-</button>
+                        <button data-number button class="button" id="button-7" value="7">7</button>
+                        <button data-number button class="button" id="button-8" value="8">8</button>
+                        <button data-number button class="button" id="button-9" value="9">9</button>
+                        <button data-operator button class="button" id="button-plus" value="plus">&plus;</button>
+                        <button data-number button class="button" id="button-4" value="4">4</button>
+                        <button data-number button class="button" id="button-5" value="5">5</button>
+                        <button data-number button class="button" id="button-6" value="6">6</button>
+                        <button data-operator button class="button" id="button-minus" value="minus">&minus;</button>
+                        <button data-number button class="button" id="button-1" value="1">1</button>
+                        <button data-number button class="button" id="button-2" value="2">2</button>
+                        <button data-number button class="button" id="button-3" value="3">3</button>
+                        <button data-operator button class="button" id="button-multiply" value="times">&times;</button>
+                        <button data-number button class="button" id="button-decimal" value="decimal">&period;</button>
+                        <button data-number button class="button" id="button-0" value="0">0</button>
+                        <button data-equals button class="button" id="button-equal" value="equals">=</button>
+                        <button data-operator button class="button" id="button-divide" value="divide">&divide;</button>
                 </div>
 
     <footer class="footer" id="footer">

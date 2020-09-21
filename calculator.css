@@ -48,10 +48,16 @@ body{
 
 #button-clear{
     background-color: #F24B59;
-    grid-column: span 2;
 }
 #button-clear:hover{
-    background-color: #F2BF80;
+    background-color: #F2913D;
+}
+
+#button-del{
+    background-color: #F24B59;
+}
+#button-del:hover{
+    background-color: #F2913D;
 }
 .output{
     grid-column: -1 / 1;
@@ -64,17 +70,19 @@ body{
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
-    margin: 5px;
+    margin: 10px;
 }
 
 .output .history {
     color: #0B0C0D;
     font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .output .current {
     color: #0B0C0D;
     font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #footer {
