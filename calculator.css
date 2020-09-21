@@ -9,16 +9,67 @@ body{
     background-color:#F2B33D;
 }
 
-#hero {
+#container {
   background-color: #F2BF80;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button {
-  margin: 5px;
-  font-family: 'Fira Code', monospace;
+.calculator {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+}
+
+.calculator > button {
+    font-family: 'Fira Code', monospace;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #0B0C0D;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.calculator > button:hover{
+    background-color: #3B3C40;
+}
+
+#button-clear{
+    background-color: #F24B59;
+    grid-column: span 2;
+}
+#button-clear:hover{
+    background-color: #F2BF80;
+}
+.output{
+    grid-column: -1 / 1;
+    background-color: #CEEFF2;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 5px;
+}
+
+.output .history {
+    color: #0B0C0D;
+    font-size: 1rem;
+}
+
+.output .current {
+    color: #0B0C0D;
+    font-size: 2rem;
 }
 
 #footer {
