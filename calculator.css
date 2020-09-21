@@ -1,30 +1,24 @@
-* {
-  font-family: 'Fira Code', monospace;
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#F2B33D;
 }
 
 #hero {
-  background-color: #f2bf80;
+  background-color: #F2BF80;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-#card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-}
-
-#calculator {
-  background-color: #f2b33d;
-  border-radius: 50px;
-
-}
-
 
 .button {
   margin: 5px;
+  font-family: 'Fira Code', monospace;
 }
 
 #footer {
