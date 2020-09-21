@@ -10,5 +10,3 @@
 
 ## tech/languages used: 
 ` HTML5 CSS3 JavaScript`
-
-`by claire labry for Signs365`
