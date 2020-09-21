@@ -1,4 +1,4 @@
-# Signs365_Calculator
+## Signs365_Calculator
 this is the Signs365 Code Assessment completed to show my basic knowledge of JavaScript. Inside this repository is a functional calculator that can complete basic arithmetic with addition, subtraction, multiplication, division and percentage. Users can click all clear and delete numbers
 
 ## installation & usage
@@ -9,4 +9,6 @@ this is the Signs365 Code Assessment completed to show my basic knowledge of Jav
     - & crunch some numbers!
 
 ## tech/languages used: 
-` HTML5 CSS3 JavaScript`
+    - HTML5 
+    - CSS3
+    - JavaScript
