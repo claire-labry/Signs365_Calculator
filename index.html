@@ -14,6 +14,10 @@
     />
     <!-- google font open source code: orbitron (output) -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+     <!-- font awesome CDN -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
   </head>
   <body>
       <section class="main-container" id="container">
@@ -36,7 +40,7 @@
                         <button data-delete id="button-del">del</button>
                         <button data-operator>%</button>
 <!-- this button is not functional; the pseudocode is in calculator.js -->
-                        <button data-operator>+/-</button>
+                        <button data-operator onclick="alert('this button sadly doesn\'t work; please read pseudocode in calculator.js')">+/-</button>
                         <button data-number>7</button>
                         <button data-number>8</button>
                         <button data-number>9</button>
@@ -56,14 +60,15 @@
                 </div>
 
     <footer class="footer" id="footer">
-        <div class="content has-text-centered">
-        <p>
+        <p class="content has-text-centered">
             Signs365 Calculator by Claire Labry
         </p>
+        <a href="https://github.com/claire-labry/Signs365_Calculator"><i class="fab fa-github"></i></a>
         </div>
     </footer>
     </div>
     <!-- added link to external javascript file -->
     <script src="calculator.js"></script>
+
 </body>
 </html>

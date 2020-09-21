@@ -1,4 +1,4 @@
-*, *::before, *::after {
+body {
     box-sizing: border-box;
     font-family: 'Fira Code', monospace;
 }
@@ -94,4 +94,14 @@ body{
   text-align: center;
   color: #ffffff;
   z-index: 1;
+}
+
+.fab{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0 15px 0px;
+}
+.fab:hover{
+    transform: scale(1.9);
 }
