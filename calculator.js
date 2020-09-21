@@ -17,7 +17,7 @@ class Calculator {
         this.currentNum = this.currentNum.toString().slice(0, -1)
     }
     // function: allows numbers to appear next to each other
-    appendNumber(number){
+    appendNum(number){
         // ensures user doesn't type multiple periods
         if(number === '.' && this.currentNum.includes('.')) 
             return
@@ -110,7 +110,7 @@ const calculator = new Calculator(previousNumTextElement, currentNumTextElement)
 // numsBtns method: allows user to click on buttons and have them be appended/updated
 numBtns.forEach(button =>{
     button.addEventListener('click', ()=>{
-        calculator.appendNumber(button.innerText)
+        calculator.appendNum(button.innerText)
         calculator.updateDisplay()
     })
 });
