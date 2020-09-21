@@ -53,8 +53,8 @@ class Calculator {
             case '%':
                 computation = (prev/100) * current
                 break
-            case '+/-':
-                computation = prev * -1 || current * 1
+            // case '+/-':
+            //     computation = --prev || ++prev
                 break
             default:
                 return
