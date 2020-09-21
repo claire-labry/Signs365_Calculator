@@ -20,92 +20,54 @@
     />
   </head>
   <body>
-    <section class="hero" id="hero">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">Signs365 Calculator</h1>
-          <h2 class="subtitle">click on any number to calculate something!</h2>
+    <div class="main">
+      <section class="hero" id="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Signs365 Calculator</h1>
+            <h2 class="subtitle">
+              click on any number to calculate something!
+            </h2>
+          </div>
         </div>
-      </div>
-    </section>
-    <div class="card" id="card">
-      <div class="card-content" id="calculator">
-        <div class="card-body">
-            <button button class="button" id="button-clear" value="clear">
-                <span>AC</span>
-              </button>
-            <button button class="button" id="button-percent" value="percent">
-                <span>%</span>
-              </button>
-            <button button class="button" id="button-addMinus" value="addMinus">
-                <span>+/-</span>
-              </button>
-              <br /><br />
-          <button button class="button" id="button-7" value="7">
-            <span>7</span>
-          </button>
-          <button button class="button" id="button-8" value="8">
-            <span>8</span>
-          </button>
-          <button button class="button" id="button-9" value="9">
-            <span>9</span>
-          </button>
-          <button button class="button" id="button-plus" value="plus">
-            <span>+</span>
-          </button>
-          <br /><br />
-          <button button class="button" id="button-4" value="4">
-            <span>4</span>
-          </button>
-          <button button class="button" id="button-5" value="5">
-            <span>5</span>
-          </button>
-          <button button class="button" id="button-6" value="6">
-            <span>6</span>
-          </button>
-          <button button class="button" id="button-minus" value="minus">
-            <span>&minus;</span>
-          </button>
-          <br /><br />
-          <button button class="button" id="button-1" value="1">
-            <span>1</span>
-          </button>
-          <button button class="button" id="button-2" value="2">
-            <span>2</span>
-          </button>
-          <button button class="button" id="button-3" value="3">
-            <span>3</span>
-          </button>
-          <button button class="button" id="button-multiply" value="times">
-            <span>&times;</span>
-          </button>
-          <br /><br />
-          <button button class="button" id="button-decimal" value="decimal">
-            <span>&period;</span>
-          </button>
-          <button button class="button" id="button-0" value="0">
-            <span>0</span>
-          </button>
-          <button button class="button" id="button-equal" value="equals">
-            <span>=</span>
-          </button>
-          <button button class="button" id="button-divide" value="divide"><span>&divide;</span></button>
-          <br /><br />
-        </div>
-      </div>
+      </section>
+    <div class="calculator">
+        <div class="output">
+            <div class="history"></div>
+                <div class="current"></div>
+                    </div>
+                        <button button class="button" id="button-clear" value="clear">AC</button>
+                        <button button class="button" id="button-percent" value="percent">%</button>
+                        <button button class="button" id="button-addMinus" value="addMinus">+/-</button>
+                        <button button class="button" id="button-7" value="7">7</button>
+                        <button button class="button" id="button-8" value="8">8</button>
+                        <button button class="button" id="button-9" value="9">9</button>
+                        <button button class="button" id="button-plus" value="plus">+</button>
+                        <button button class="button" id="button-4" value="4">4</button>
+                        <button button class="button" id="button-5" value="5">5</button>
+                        <button button class="button" id="button-6" value="6">6</button>
+                        <button button class="button" id="button-minus" value="minus">&minus;</button>
+                        <button button class="button" id="button-1" value="1">1</button>
+                        <button button class="button" id="button-2" value="2">2</button>
+                        <button button class="button" id="button-3" value="3">3</button>
+                        <button button class="button" id="button-multiply" value="times">&times;</button>
+                        <button button class="button" id="button-decimal" value="decimal">&period;</button>
+                        <button button class="button" id="button-0" value="0">0</button>
+                        <button button class="button" id="button-equal" value="equals">=</button>
+                        <button button class="button" id="button-divide" value="divide">&divide;</button>
     </div>
 
-    <footer class="footer" id="footer">
-      <div class="content has-text-centered">
-        <p>
-          Signs365 Calculator by
-          <a href="https://github.com/claire-labry/Signs365_Calculator"
-            >Claire Labry</a
-          >.
-        </p>
-      </div>
-    </footer>
-
+      <footer class="footer" id="footer">
+        <div class="content has-text-centered">
+          <p>
+            Signs365 Calculator by
+            <a href="https://github.com/claire-labry/Signs365_Calculator"
+              >Claire Labry</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </div>
     <!-- added link to external javascript file -->
     <script src="calculator.js"></script>
   </body>

@@ -1,40 +1,39 @@
 * {
-    font-family: 'Fira Code', monospace;
+  font-family: 'Fira Code', monospace;
 }
 
-#hero{
-   background-color: #F2BF80; 
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+#hero {
+  background-color: #f2bf80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#card{
-    background-color: #CEEFF2;
-    display: flexbox;
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 #calculator {
-    background-color: #F2B33D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: max-content;
-    border-radius: 50px;
+  background-color: #f2b33d;
+  border-radius: 50px;
+
 }
+
 
 .button {
-    margin: 5px;
+  margin: 5px;
 }
 
-#footer{
-    background-color: #F24B59;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
+#footer {
+  background-color: #f24b59;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
 }
