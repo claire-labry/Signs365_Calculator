@@ -53,8 +53,13 @@ class Calculator {
             case '%':
                 computation = (prev/100) * current
                 break
-            // case '+/-':
-            //     computation = --prev || ++prev
+            // pseudocode for case '+/-':
+            //     bring in computation variable
+            //     have current variable become negative 
+            //     number becomes negative/positive in output
+            //     operator is chosen and applied to whether negative/positive 
+            //     output is negative or positive based on +/- chosen 
+            
                 break
             default:
                 return
